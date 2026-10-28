@@ -1,0 +1,47 @@
+{
+  "name": "莓茄 · 一点点，也算数",
+  "short_name": "莓茄",
+  "description": "记录想坚持的小事，每天收到今日清单、预计完成时间和最近的坚持情况。",
+  "lang": "zh-CN",
+  "start_url": "/#/today",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F6F1E7",
+  "theme_color": "#F6F1E7",
+  "categories": ["productivity", "lifestyle", "health"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "看看今天",
+      "short_name": "今天",
+      "url": "/#/today",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "回顾最近",
+      "short_name": "回顾",
+      "url": "/#/stats",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
